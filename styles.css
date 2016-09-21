@@ -1,0 +1,139 @@
+body {
+  font-family:Georgia, serif;
+  background-color:#b30000;
+  font-size:20vm;
+}
+
+/*html5 semantics tags */
+article, aside, figure, footer, header, hgroup, menu, nav, section 
+{ display: block; }
+
+/* light css reset */
+* { margin : 0; padding : 0; }
+h2, h3, h4, h5, p, ul, ol  { margin : 0 20px; padding : .5em 0; }
+img { border: 0px;}
+
+
+header {
+  width:90%;
+  display:block;
+  background-color:#ffffcc;
+  margin-top:50px;
+  margin-right:auto;
+  margin-left:auto;
+  padding:10px;
+  display:block;
+  border:5px solid purple;
+}
+
+.floating-box {
+    display: inline-block;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    
+    border:2px solid lightgrey;
+}
+
+.socialMediaLink {
+	margin:10px;
+}
+  
+
+hgroup {
+  width:100%;
+  
+}
+
+
+.verticalInlineBlock{
+	display: inline-block;
+	vertical-align: top;
+}
+
+hgroup p {
+	margin: 2px 0px 0px 0px;
+	padding: 2px 0px 0px 0px;
+}
+
+figure.ProfileImage {
+	
+	padding:0px;
+	border:5px solid #b30000;
+    margin-top:0px;
+	margin-left:0px;
+}
+
+img.socialMediaIcon {
+	height:30px;
+}
+
+img.createdIcon {
+	height:75px;
+}
+
+nav {
+	border:2px solid black;
+}
+
+/*
+@import url(nav.css);
+
+*/
+
+h1 {
+  font-size:2vm;
+  margin:0px;
+  padding:0px;
+}
+
+h2 {
+  font-size:1vm;
+  margin:0px;
+}
+
+h3 {
+  font-size:1.3em;
+  margin:20px;
+  padding-left:50px;
+}
+
+p {
+  margin:5px;
+  padding:5px;
+}
+
+section {
+  width:90%;
+  background-color:#ffffcc;
+  margin-right:auto;
+  margin-left:auto;
+  padding:10px;
+  border:5px solid orange;
+}
+
+section.insideSection{
+	width:95%;
+	border:5px solid green;
+}
+
+footer{
+  width:90%;
+  background-color:#b30000;
+  margin-right:auto;
+  margin-left:auto;
+  border:5px solid orange; 
+  padding:10px;
+}
+
+
+
+/* Clear Floated Elements
+.clearfix:before, .clearfix:after {content: "\0020"; 
+display: block; height: 0; visibility: hidden;}
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; } 
+*/
